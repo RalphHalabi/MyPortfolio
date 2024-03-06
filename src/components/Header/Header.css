@@ -45,7 +45,7 @@
 /*active*/
 .active-link,
 .nav__link:hover {
-  color: var(--titile-color-dark);
+  color: var(--title-color-dark);
 }
 
 /*=============== BREAKPOINTS ===============*/
