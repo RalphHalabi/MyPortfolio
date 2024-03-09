@@ -7,6 +7,8 @@ import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import ScrollUp from "./components/ScrollUp/ScrollUp";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+        <Footer />
+        <ScrollUp />
     </>
   );
 }
