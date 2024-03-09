@@ -40,7 +40,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 2 years of experience.Providing quality
                 work to clients and companies.
               </p>
 
@@ -103,7 +103,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 2 years of experience.Providing quality
                 work to clients and companies.
               </p>
 
@@ -168,7 +168,7 @@ const Services = () => {
                 Web Services & Solutions
               </h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 2 years of experience.Providing quality
                 work to clients and companies.
               </p>
 
