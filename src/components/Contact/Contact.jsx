@@ -1,25 +1,18 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
-    const form = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm("service_4a415bl", "template_wsmrc0t", form.current, {
+        publicKey: "exGLkWz6Vc8_SsiJd",
       })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+      e.target.reset()
   };
   return (
     <sectio className="contact section" id="#contact">
@@ -63,7 +56,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
-          <form className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
