@@ -15,7 +15,7 @@ const Contact = () => {
       e.target.reset()
   };
   return (
-    <sectio className="contact section" id="#contact">
+    <section className="contact section" id="#contact">
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Me</span>
 
@@ -111,7 +111,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </sectio>
+    </section>
   );
 };
 

@@ -24,6 +24,7 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+      
         <Footer />
         <ScrollUp />
     </>
