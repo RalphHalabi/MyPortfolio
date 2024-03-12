@@ -15,8 +15,8 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
-          Ralph
+        <a href="index.html" className="nav__logo header__title">
+          Web Elite
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
