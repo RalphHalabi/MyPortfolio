@@ -51,7 +51,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">
                   Business Administration
                 </h3>
-                <span className="qualification__subtitle">Institut cortbawi sscc</span>
+                <span className="qualification__subtitle">Institut Cortbawi SSCC</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
                   2016 - 2018
