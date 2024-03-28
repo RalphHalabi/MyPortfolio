@@ -31,6 +31,8 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  width: 100%;
+  max-width: 295px;
 }
 
 .work__img {
@@ -43,6 +45,13 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+}
+
+.work_descritpion {
+  font-size: var(--small-font-size);
+  overflow: hidden;
+  text-overflow: ellipsis; /* Show ellipsis for long text */
+  margin-bottom: var(--mb-1);
 }
 
 .work__button {
@@ -97,9 +106,9 @@
 }
 
 @media screen and (max-width: 576px) {
-  .work__container {
+  /* .work__container {
     grid-template-columns: 1fr;
-  }
+  } */
 
   .work__img {
     width: 100%;
