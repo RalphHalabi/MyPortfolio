@@ -21,7 +21,7 @@
   font-weight: var(--font-medium);
 }
 
-.header__title{
+.header__title {
   font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);

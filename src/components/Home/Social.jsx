@@ -1,30 +1,30 @@
-import React from "react";
+import React from 'react';
 
 const Social = () => {
   return (
-    <div className="home__social">
+    <div className='home__social'>
       <a
-        href="https://www.instagram.com/ralph_halabi?igsh=MTJ0djMxOWUxeHUyMg%3D%3D&utm_source=qr"
-        className="home__social-icon"
-        target={"ig"}
+        href='https://www.instagram.com/ralph_halabi?igsh=MTJ0djMxOWUxeHUyMg%3D%3D&utm_source=qr'
+        className='home__social-icon'
+        target={'ig'}
       >
-        <i className="uil uil-instagram"></i>
+        <i className='uil uil-instagram'></i>
       </a>
 
       <a
-        href="https://www.linkedin.com/in/ralph-halabi-063998261"
-        className="home__social-icon"
-        target={"linkedin"}
+        href='https://www.linkedin.com/in/ralph-halabi-063998261'
+        className='home__social-icon'
+        target={'linkedin'}
       >
-        <i class="uil uil-linkedin"></i>
+        <i class='uil uil-linkedin'></i>
       </a>
 
       <a
-        href="https://github.com/RalphHalabi"
-        className="home__social-icon"
-        target={"github"}
+        href='https://github.com/RalphHalabi'
+        className='home__social-icon'
+        target={'github'}
       >
-        <i className="uil uil-github"></i>
+        <i className='uil uil-github'></i>
       </a>
     </div>
   );
