@@ -57,10 +57,10 @@ const Data = () => {
       </h1>
       <h3 className='home__subtitle'>Web Developer</h3>
       <p className='home__description'>
-        As a creative Web Developer based in lebanon, I am deeply committed to
+        As a creative Web Developer based in Lebanon, I am deeply committed to
         delivering exceptional results. My passion for innovation and excellence
         drives me to consistently exceed expectations in the dynamic world of
-        web development
+        web development.
       </p>
 
       <a
