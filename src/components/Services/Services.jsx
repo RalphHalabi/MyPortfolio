@@ -124,13 +124,13 @@ const Services = () => {
                 <li className='services__modal-service'>
                   <i className='uil uil-check-circle services__modal-icon'></i>
                   <p className='services__modal-info'>
-                    I develop the user interface.
+                    User Interfaces.
                   </p>
                 </li>
 
                 <li className='services__modal-service'>
                   <i className='uil uil-check-circle services__modal-icon'></i>
-                  <p className='services__modal-info'>Web page development.</p>
+                  <p className='services__modal-info'>Web Development.</p>
                 </li>
 
                 <li className='services__modal-service'>
@@ -199,7 +199,7 @@ const Services = () => {
 
                 <li className='services__modal-service'>
                   <i className='uil uil-check-circle services__modal-icon'></i>
-                  <p className='services__modal-info'>SEO Integration.</p>
+                  <p className='services__modal-info'>SEO Integration and copywriting.</p>
                 </li>
 
                 <li className='services__modal-service'>

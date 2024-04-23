@@ -19,7 +19,7 @@ function Header() {
           href='index.html'
           className='nav__logo header__title'
         >
-          Web Elite
+          Ralph.H
         </a>
 
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
