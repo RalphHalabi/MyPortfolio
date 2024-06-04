@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <span className='footer__copy'>
-          &#169; WebElite. All rigths reserved
+          &#169; Powered by <a href='https://webelite.info/' target={'linkedin'}>WebElite</a>. All rigths reserved
         </span>
       </div>
     </footer>
